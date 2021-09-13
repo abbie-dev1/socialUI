@@ -8,6 +8,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { RightBarComponent } from './components/right-bar/right-bar.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     ProfileComponent,
     LandingComponent,
     NavBarComponent,
-    SideBarComponent
+    SideBarComponent,
+    RightBarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
